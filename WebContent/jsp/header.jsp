@@ -27,7 +27,13 @@
 				<a href="">Link 3</a>
 			</div>	
 		</li>
-		<li><a href="">Programs</a></li>
+		<li class="dropdown"><a>Programs</a>
+			<div class="dropdown-content">
+				<a href="">Link 1</a>
+				<a href="">Link 2</a>
+				<a href="">Link 3</a>
+			</div>	
+		</li>
 		<li><a href="${pageContext.request.contextPath}/jsp/contactUs.jsp">Contact Us</a></li>
 	</ul>
 </div>
