@@ -7,6 +7,13 @@
 	<link rel="stylesheet" href="${pageContext.request.contextPath}/css/header.css">
 </head>
 
+<div class="social-bar">
+	<a href=""><img src="${pageContext.request.contextPath}/img/social/fb.png" class="social-icon"></a>
+	<a href=""><img src="${pageContext.request.contextPath}/img/social/in.png" class="social-icon"></a>
+	<a href=""><img src="${pageContext.request.contextPath}/img/social/pin.png" class="social-icon"></a>
+	<a href=""><img src="${pageContext.request.contextPath}/img/social/tw.png" class="social-icon"></a>
+</div>
+
 <div class="header">
 	<ul class="navbar">
 		<li><a href="${pageContext.request.contextPath}/index.jsp">Home</a></li>
