@@ -19,6 +19,8 @@
 	<div class="text">
 		Insert Contact Info here
 	</div>
+	
+	<jsp:include page="footer.jsp"></jsp:include>
 
 </body>
 </html>
