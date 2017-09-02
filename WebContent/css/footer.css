@@ -1,0 +1,44 @@
+.footer {
+	border-style: solid none solid none;
+	border-color: rgba(8, 33, 125, 0.12);
+	border-width: 2px;
+	
+	position: absolute;
+	bottom: -10px;
+	left: 22.5%;
+	width: 55%;
+}
+
+.footer-block {
+	overflow: hidden;
+	object-fit: cover;
+	display: inline-block;
+	max-width: 350px;
+}
+
+.footer-text {
+	display: inline-block;
+	max-height: 130px;
+	position: absolute;
+	bottom: 60px;
+}
+
+@media screen and (max-width: 815px) {
+	.footer-block {
+		max-width: 250px;
+	}
+	.footer-text {
+		bottom: 30px;
+		font-size: 14px;
+	}
+}
+
+@media screen and (max-width: 615px) {
+	.footer-block {
+		max-width: 130px;
+	}
+	.footer-text {
+		bottom: 10px;
+		font-size: 9px;
+	}
+}
