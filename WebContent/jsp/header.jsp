@@ -18,7 +18,7 @@
 	<ul class="navbar">
 		<li><a href="${pageContext.request.contextPath}/index.jsp">Home</a></li>
 		<li><a href="${pageContext.request.contextPath}/jsp/about.jsp">About</a></li>
-		<li><a href="">ParentPortal</a></li>
+		<li><a href="${pageContext.request.contextPath}/jsp/parentportal.jsp">ParentPortal</a></li>
 		<li>Logo here</li>
 		<li class="dropdown"><a>Events</a>
 			<div class="dropdown-content">

@@ -13,6 +13,7 @@
 		slogan: -- <br> <br>
 		email: -- <br> <br>
 		number: -- <br> <br>
+		<a href="${pageContext.request.contextPath}/jsp/login.jsp">Login</a>
 	</div>
 	
 </div>
