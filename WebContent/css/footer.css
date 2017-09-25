@@ -2,43 +2,34 @@
 	border-style: solid none solid none;
 	border-color: rgba(8, 33, 125, 0.12);
 	border-width: 2px;
-	
-	position: absolute;
+	top: 30px;
+	bottom: 30px;
+	display: block;
+	position: relative;
 	bottom: -10px;
 	left: 22.5%;
 	width: 55%;
+	
 }
+
 
 .footer-block {
 	overflow: hidden;
 	object-fit: cover;
-	display: inline-block;
-	max-width: 350px;
+	display: inline;
+	position: absolute;
+	width: 350px;
+	height: 76px;
+	background-color: rgba(255, 255, 255, 0.70);	
 }
 
 .footer-text {
-	display: inline-block;
-	max-height: 130px;
+	display: inline;
 	position: absolute;
-	bottom: 60px;
-}
-
-@media screen and (max-width: 815px) {
-	.footer-block {
-		max-width: 250px;
-	}
-	.footer-text {
-		bottom: 30px;
-		font-size: 14px;
-	}
-}
-
-@media screen and (max-width: 615px) {
-	.footer-block {
-		max-width: 130px;
-	}
-	.footer-text {
-		bottom: 10px;
-		font-size: 9px;
-	}
+	left: 350px;
+	padding-left:20px;
+	background-color: rgba(255, 255, 255, 0.70);
+	font-family: Verdana;
+	font-size: 15.5px;
+	color: rgb(0, 51, 204);
 }

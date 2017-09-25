@@ -8,12 +8,11 @@
 </head>
 
 <div class="footer">
-	<img class="footer-block" src="https://pmcdeadline2.files.wordpress.com/2016/07/logo-tv-logo.png">
+	<img class="footer-block" src="${pageContext.request.contextPath}/img/smallwavelogo.png">
 	<div class="footer-text">
-		slogan: -- <br> <br>
-		email: -- <br> <br>
-		number: -- <br> <br>
-		<a href="${pageContext.request.contextPath}/jsp/login.jsp">Login</a>
+		Empowering children's lives through a love for gymnastics <br>
+		wavegymnasticsoc@gmail.com <br>
+		(949)-235-7232  &nbsp;&nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;&nbsp; <a href="${pageContext.request.contextPath}/jsp/login.jsp">Staff Portal</a>
 	</div>
 	
 </div>

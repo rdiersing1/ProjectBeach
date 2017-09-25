@@ -3,6 +3,7 @@
 	position: absolute;
 	top: 5px;
 	right: 15px;
+	background-color: rgba(200,200,200, 0.85);	
 }
 
 .social-icon {
@@ -16,6 +17,18 @@
 	background-color: gray;
 }
 
+.regular-icon {
+	width: 275px;
+	height: 175px;
+	padding: 3px 3px 3px 3px;
+	display: inline;
+	box-shadow: 0px 2px 16px 0px rgba(0,0,0,0.5);
+}
+
+.regular-icon:hover {
+	background-color: gray;
+}
+
 .header {
 	position: absolute;
 	top: 30px;
@@ -23,10 +36,9 @@
 	width: 100%;
 	color: black;
 	text-align: center;
-	background-color: #aaaec5;
-	box-shadow: 0px 2px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
 }
+
 
 ul.navbar {
 	display: inline-block;
@@ -45,32 +57,34 @@ ul.navbar {
 
 .navbar li h4 {
 	margin: 9px 0 0 0;
-	font-family: Tangerine;
+	font-family: Arial;
 	font-size: 30px;
 }
 
 .navbar li a {
 	display: block;
-	color: white;
+	color: rgba(255, 255, 255, 1);
+	background-color: rgba(0, 102, 204, 0.70);
+	font-family: Verdana, bold;
 	text-align: center;
-    padding: 14px 16px;
+	font-size: 20px;
+    padding: 10px 12px;
     text-decoration: none;
+    box-shadow: 0px 2px 16px 0px rgba(0,0,0,0.5);
 }
 
 .navbar li a:hover {
-	background-color: #4f3eab;
+	background-color: rgba(0, 102, 255, 0.75);
 }
 
-li.dropdown {
+.dropdown {
     display: inline-block;
 }
 
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #b7b7b7;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    background-color: rgba(255, 255, 255, 1);
     z-index: 1;
 }
 
@@ -82,7 +96,7 @@ li.dropdown {
     text-align: left;
 }
 
-.dropdown-content a:hover {background-color: #f1f1f1}
+.dropdown-content a:hover {background-color: rgba(0, 102, 255, 0.75)}
 
 .dropdown:hover .dropdown-content {
     display: block;

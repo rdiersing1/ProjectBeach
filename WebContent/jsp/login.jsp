@@ -5,19 +5,21 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>Staff Login</title>
+<link rel="stylesheet" href="../css/main.css">
 </head>
 <body>
 
 <div>
 <jsp:include page="header.jsp"></jsp:include>
 </div>
-<br><br><br><br>
 
-<div>
+<div class="box">
+<div class="title">
+		Staff Login:
+</div>
 <form action="placeholder" method="POST">
-<h3>Staff Login:</h3>
 Username: <input type="text" name="username"> <br> <br>
-Password:<input type="password" name="password"> <br> <br>
+Password:  <input type="password" name="password"> <br> <br>
 <input type="submit" name="Submit">
 <input type="reset"> <br> <br>  
 </form>

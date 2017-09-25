@@ -18,24 +18,27 @@
 	<ul class="navbar">
 		<li><a href="${pageContext.request.contextPath}/index.jsp">Home</a></li>
 		<li><a href="${pageContext.request.contextPath}/jsp/about.jsp">About</a></li>
-		<li><a href="${pageContext.request.contextPath}/jsp/parentportal.jsp">ParentPortal</a></li>
-		<li>Logo here</li>
+		<li><a href="${pageContext.request.contextPath}/jsp/parentportal.jsp">Parent Portal</a></li>
+		<li><a href="${pageContext.request.contextPath}/index.jsp"><img src="${pageContext.request.contextPath}/img/wavelogo.png" class="regular-icon"></a></li>
 		<li class="dropdown"><a>Events</a>
 			<div class="dropdown-content">
-				<a href="">Link 1</a>
-				<a href="">Link 2</a>
-				<a href="">Link 3</a>
+				<a href="">Coming Soon!</a>
 			</div>	
 		</li>
 		<li class="dropdown"><a>Programs</a>
 			<div class="dropdown-content">
-				<a href="">Link 1</a>
-				<a href="">Link 2</a>
-				<a href="">Link 3</a>
+				<a href="${pageContext.request.contextPath}/jsp/parentandtot.jsp">Tide Pools (Parent and Tot co-ed gymnastics)</a>
+				<a href="${pageContext.request.contextPath}/jsp/preschool.jsp">Waders (3 & 4 co-ed gymnastics)</a>
+				<a href="${pageContext.request.contextPath}/jsp/juniorprogramgirls.jsp">Jr. Wave (5 & 6 girls gymnastics)</a>
+				<a href="${pageContext.request.contextPath}/jsp/juniorprogramboys.jsp">Jr. Wave (5-8 boys gymnastics)</a>
+				<a href="${pageContext.request.contextPath}/jsp/girlsprogram.jsp">Wave Rider (8-14 girls gymnastics)</a>
+				<a href="${pageContext.request.contextPath}/jsp/team.jsp">Ocean Wave Team (6-18 girls competetive gymnastics)</a>
+				<a href="${pageContext.request.contextPath}/jsp/privatelessons.jsp">Personal Wave Trainer (all ages girls  gymnastics skills)</a>
+				<a href="${pageContext.request.contextPath}/jsp/tumbling.jsp">Tumbling Waves Tumbling(10-18 girls  gymnastics skills)</a>			
 			</div>	
 		</li>
 		<li><a href="${pageContext.request.contextPath}/jsp/contactUs.jsp">Contact Us</a></li>
 	</ul>
 </div>
-
+<br><br><br><br><br><br><br><br><br>
 </html>

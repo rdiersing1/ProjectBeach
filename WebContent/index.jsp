@@ -9,10 +9,26 @@
 	<link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-
+<header>
 		<jsp:include page="jsp/header.jsp"></jsp:include>
+</header>
 
+<div class="box">
+<div>
+	<div class="title">
+		Home
+	</div>
+	
+	<div class="text">
+	Insert Home Text Here
+	</div>
+</div>
+</div>
+
+
+
+<footer>
 		<jsp:include page="jsp/footer.jsp"></jsp:include>
-
+</footer>
 </body>
 </html>
